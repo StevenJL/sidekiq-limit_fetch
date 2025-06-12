@@ -19,10 +19,11 @@ Then `bundle install`.
 
 ### Limitations
 
-**Important note:** At this moment, `sidekiq-limit_fetch` is incompatible with
-- sidekiq pro's `reliable_fetch`
-- `sidekiq-rate-limiter`
-- any other plugin that rewrites fetch strategy of sidekiq.
+> [!WARNING]
+> At this moment, `sidekiq-limit_fetch` is incompatible with
+> sidekiq pro's [super_fetch](https://github.com/sidekiq/sidekiq/wiki/Reliability#using-super_fetch),
+> [sidekiq-rate-limiter](https://github.com/enova/sidekiq-rate-limiter),
+> and any other plugin that rewrites fetch strategy of sidekiq.
 
 ### Usage
 
