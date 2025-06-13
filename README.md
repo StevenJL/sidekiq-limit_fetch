@@ -7,6 +7,9 @@ Sidekiq strategy to support a granular queue control – limiting, pausing, bloc
 [![CI](https://github.com/deanpcmad/sidekiq-limit_fetch/actions/workflows/ci.yml/badge.svg)](https://github.com/deanpcmad/sidekiq-limit_fetch/actions/workflows/ci.yml)
 [![Gem Version](https://badge.fury.io/rb/sidekiq-limit_fetch.svg)](http://badge.fury.io/rb/sidekiq-limit_fetch)
 
+> [!NOTE]
+> This project/repo is currently unmaintained. I no longer use Sidekiq and therefore no longer need this feature.
+
 ### Installation
 
 Add this line to your application's Gemfile:
